@@ -1,26 +1,25 @@
 {
-  "name": "zangra/php-xmlrpc-client",
-  "description": "PHP XML-RPC client forked",
-  "keywords": ["php","xmlrpc", "xml", "rpc", "client"],
-  "type": "symfony-bundle",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Joanis Rouanet",
-      "email": "joanis.ang3@gmail.com"
+    "name": "zangra/php-xmlrpc-client",
+    "type": "symfony-bundle",
+    "description": "Php XMLRPC client forked from https://github.com/Ang3 ",
+    "keywords": ["odoo", "api", "client", "domain", "operation", "dbal", "query", "builder", "repository", "builder", "12", "13"],
+    "license": "MIT",
+    "authors": [{
+      "name": "Joanis ROUANET",
+      "email": "joanis.ang3@gmail.com",
+      "homepage": "https://github.com/Ang3"
+    }],
+    "autoload": {
+      "psr-4": {
+        "XmlRpc\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^7.2 || ^8.1",
+      "ext-xmlrpc": "*"
+    },
+    "require-dev": {
+      "roave/security-advisories": "dev-master",
+      "symfony/phpunit-bridge": "^3.4 || ^4.0"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "XmlRpc\\": "src/"
-    }
-  },
-  "require": {
-    "php": "^7.2 || ^8.1",
-    "ext-xmlrpc": "*"
-  },
-  "require-dev": {
-    "roave/security-advisories": "dev-master",
-    "symfony/phpunit-bridge": "^3.4 || ^4.0"
-  }
 }
