@@ -11,7 +11,7 @@
     }],
     "autoload": {
       "psr-4": {
-        "XmlRpc\\": "src/"
+        "Zangra\\Component\\XmlRpc\\": "src/"
       }
     },
     "require": {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\XmlRpc\Transport;
+namespace Zangra\Component\XmlRpc\Transport;
 
-use Ang3\Component\XmlRpc\Exception\RequestException;
+use Zangra\Component\XmlRpc\Exception\RequestException;
 
 class TransportException extends RequestException
 {
