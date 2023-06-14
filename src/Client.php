@@ -1,12 +1,12 @@
 <?php
 
-namespace Ang3\Component\XmlRpc;
+namespace Zangra\Component\XmlRpc;
 
-use Ang3\Component\XmlRpc\Exception\ConfigurationException;
-use Ang3\Component\XmlRpc\Exception\RemoteException;
-use Ang3\Component\XmlRpc\Exception\RequestException;
-use Ang3\Component\XmlRpc\Transport\Stream;
-use Ang3\Component\XmlRpc\Transport\TransportInterface;
+use Zangra\Component\XmlRpc\Exception\ConfigurationException;
+use Zangra\Component\XmlRpc\Exception\RemoteException;
+use Zangra\Component\XmlRpc\Exception\RequestException;
+use Zangra\Component\XmlRpc\Transport\Stream;
+use Zangra\Component\XmlRpc\Transport\TransportInterface;
 
 class Client
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\XmlRpc\Transport;
+namespace Zangra\Component\XmlRpc\Transport;
 
 interface TransportInterface
 {
